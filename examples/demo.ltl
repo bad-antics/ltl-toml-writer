@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_toml_writer
+
+import std::io
+use ltl_toml_writer as lib
+
+fn main() {
+    io::println("ltl_toml_writer demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
