@@ -1,0 +1,15 @@
+// ltl-toml-writer/main.ltl
+//
+// Round-trip TOML writer — preserves comments and order.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-toml-writer v0.1.0")
+    io::println("Round-trip TOML writer — preserves comments and order.")
+    0
+}
